@@ -1,21 +1,126 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Your Name - Portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anthony Hayes | Quantitative Finance Portfolio</title>
+
+  <style>
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      max-width: 820px;
+      margin: 0 auto;
+      padding: 56px 24px;
+      line-height: 1.6;
+      color: #111;
+      background: #fff;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin-bottom: 8px;
+    }
+
+    h2 {
+      margin-top: 44px;
+      font-size: 24px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 6px;
+    }
+
+    h3 {
+      margin-top: 28px;
+      font-size: 19px;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    a {
+      color: #0645ad;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .intro {
+      font-size: 18px;
+      max-width: 720px;
+    }
+
+    .project {
+      margin-bottom: 30px;
+    }
+
+    .skills p,
+    .contact p {
+      margin: 8px 0;
+    }
+  </style>
 </head>
+
 <body>
-  <h1>Your Name</h1>
-  <p>Quant Finance Graduate passionate about trading and probability.</p>
+
+  <h1>Anthony Hayes</h1>
+
+  <p class="intro">
+    Quantitative Finance MSc student interested in how probability, market behaviour, and risk interact in trading decisions.
+  </p>
 
   <h2>Projects</h2>
 
-  <h3>Options Pricing Model</h3>
-  <p>Built a Black-Scholes pricing model with volatility analysis.</p>
-  <a href="https://github.com/yourusername/project1">View Project</a>
+  <div class="project">
+    <h3>Options Pricing and Volatility Analysis</h3>
+    <p>
+      Implemented Black-Scholes pricing, Greeks, and volatility sensitivity analysis to study how option value changes with market inputs.
+      The project focuses on model risk: when a closed-form pricing model is useful, and where its assumptions become fragile.
+    </p>
+    <p>
+      <a href="YOUR_OPTIONS_PROJECT_LINK">View Project</a>
+    </p>
+  </div>
 
-  <h3>Trading Strategy Backtest</h3>
-  <p>Developed and tested a mean-reversion strategy.</p>
-  <a href="https://github.com/yourusername/project2">View Project</a>
+  <div class="project">
+    <h3>Mean-Reversion Trading Strategy Backtest</h3>
+    <p>
+      Designed and tested a mean-reversion trading signal using historical price data, transaction costs, drawdown analysis, and parameter sensitivity.
+      The objective was to evaluate whether the signal survives realistic frictions rather than simply fitting past returns.
+    </p>
+    <p>
+      <a href="YOUR_BACKTEST_PROJECT_LINK">View Project</a>
+    </p>
+  </div>
+
+  <div class="project">
+    <h3>Market-Making Simulation</h3>
+    <p>
+      Built a simple market-making simulation to explore the trade-off between spread capture, adverse selection, inventory risk, and execution probability.
+      The project frames quoting as a repeated decision problem under uncertainty.
+    </p>
+    <p>
+      <a href="YOUR_MARKET_MAKING_PROJECT_LINK">View Project</a>
+    </p>
+  </div>
+
+  <h2>Skills</h2>
+
+  <div class="skills">
+    <p><strong>Programming:</strong> Python, C++, pandas, NumPy, matplotlib</p>
+    <p><strong>Quantitative:</strong> Probability, statistics, derivatives, options pricing, backtesting, risk analysis</p>
+    <p><strong>Trading interests:</strong> Market-making, volatility, systematic strategies, decision-making under uncertainty</p>
+  </div>
+
+  <h2>Contact</h2>
+
+  <div class="contact">
+    <p>Email: <a href="mailto:YOUR_EMAIL">YOUR_EMAIL</a></p>
+    <p>LinkedIn: <a href="YOUR_LINKEDIN_URL">LinkedIn</a></p>
+    <p>GitHub: <a href="YOUR_GITHUB_URL">GitHub</a></p>
+  </div>
 
 </body>
 </html>
