@@ -47,7 +47,7 @@ Anthony Hayes is an MSc Quantitative Finance candidate at UCD Smurfit Graduate B
 
 - Email: anthony.hayes@ucdconnect.ie.
 - GitHub: use the verified GitHub profile associated with this repository.
-- LinkedIn: omit from the visible site unless an exact verified URL is present in repository evidence.
+- LinkedIn: omit unless an exact verified URL is available in repository evidence or supplied by Anthony.
 
 ## Privacy restrictions
 

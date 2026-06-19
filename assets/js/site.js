@@ -1,5 +1,6 @@
 (function () {
   const projects = window.portfolioProjects || [];
+  const LINKEDIN_URL = "https://www.linkedin.com/in/anthony-hayes-033423232/";
 
   function text(value) {
     return String(value || "");
@@ -157,6 +158,22 @@
     appendListSection(target, "Last substantive update", project.lastUpdated);
   }
 
+  function appendVerifiedLinkedIn() {
+    const heroActions = document.querySelector ? document.querySelector(".hero-actions") : null;
+    const contactLinks = document.querySelector ? document.querySelector(".contact-links") : null;
+    if (heroActions && !heroActions.querySelector('a[href="' + LINKEDIN_URL + '"]')) {
+      const heroLink = el("a", "button", "LinkedIn");
+      heroLink.href = LINKEDIN_URL;
+      heroActions.appendChild(heroLink);
+    }
+    if (contactLinks && !contactLinks.querySelector('a[href="' + LINKEDIN_URL + '"]')) {
+      const contactLink = el("a", "", "linkedin.com/in/anthony-hayes-033423232");
+      contactLink.href = LINKEDIN_URL;
+      contactLinks.appendChild(contactLink);
+    }
+  }
+
+  appendVerifiedLinkedIn();
   renderFeaturedProjects();
   renderCaseStudy();
 })();
