@@ -47,7 +47,7 @@ Anthony Hayes is an MSc Quantitative Finance candidate at UCD Smurfit Graduate B
 
 - Email: anthony.hayes@ucdconnect.ie.
 - GitHub: use the verified GitHub profile associated with this repository.
-- LinkedIn: omit unless an exact verified URL is available in repository evidence or supplied by Anthony.
+- LinkedIn: https://www.linkedin.com/in/anthony-hayes-033423232/ (provided directly by Anthony).
 
 ## Privacy restrictions
 
@@ -56,4 +56,4 @@ Do not publish Anthony's telephone number, the original private CV, local/privat
 
 ## CV evidence source
 
-Anthony provided access to `AnthonyHayes330/Current-CV`, which contains `Anthony_Hayes_CV.pdf`. Use that repository only as a private evidence source for future updates unless Anthony explicitly confirms that a public CV link is safe to publish. Do not copy the PDF into this portfolio repository, and do not publish telephone numbers, private document metadata or unverified LinkedIn URLs.
+Anthony provided access to `AnthonyHayes330/Current-CV`, which contains `Anthony_Hayes_CV.pdf`. Use that repository only as a private evidence source for future updates unless Anthony explicitly confirms that a public CV link is safe to publish. Do not copy the PDF into this portfolio repository, and do not publish telephone numbers, private document metadata or unverified LinkedIn URLs. The LinkedIn URL currently approved for public display is `https://www.linkedin.com/in/anthony-hayes-033423232/`.
