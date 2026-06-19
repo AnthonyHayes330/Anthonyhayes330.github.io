@@ -135,24 +135,6 @@ h3 { color: var(--ink-soft); font-size: 1.05rem; line-height: 1.25; }
 
 .principle-grid, .toolkit-grid { display: grid; gap: 1rem; grid-template-columns: repeat(3, 1fr); }
 .principle-grid article, .toolkit-grid p { padding: 1.2rem; }
-.credential-grid {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: repeat(2, 1fr);
-  margin-bottom: 1rem;
-}
-
-.credential-card {
-  background: rgba(255, 253, 248, 0.9);
-  border: 1px solid var(--line);
-  padding: 1.2rem;
-}
-
-.credential-card p:last-child {
-  color: var(--muted);
-  margin-bottom: 0;
-}
-
 .timeline { display: grid; gap: 1rem; }
 .experience-item { display: grid; gap: 1rem; grid-template-columns: minmax(220px, 0.35fr) 1fr; padding: 1.25rem; }
 .experience-item ul { margin: 0; padding-left: 1.2rem; }
@@ -173,7 +155,7 @@ h3 { color: var(--ink-soft); font-size: 1.05rem; line-height: 1.25; }
 @media (max-width: 900px) {
   .hero, .section-heading, .experience-item { grid-template-columns: 1fr; }
   .hero { min-height: auto; }
-  .evidence-strip, .principle-grid, .toolkit-grid, .credential-grid { grid-template-columns: 1fr; }
+  .evidence-strip, .principle-grid, .toolkit-grid { grid-template-columns: 1fr; }
   .evidence-strip div + div { border-left: 0; border-top: 1px solid var(--line); }
   .project-card, .project-card:first-child { grid-column: span 12; }
 }
